@@ -1,0 +1,68 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+    font-family: 'Roboto', sans-serif; /* A more modern font */
+  }
+   
+  .calculator { 
+    background-color: #ffffff; /* White background for the calculator */
+    border-radius: 15px; /* Rounded corners */
+    padding: 25px;
+   
+    width: 330px; /* Adequate width for the display and buttons */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
+  }
+   
+  .display {
+    background-color: #222222; /* Dark background for the display */
+    color: #fff;
+    text-align: right;
+    font-size: 3em; /* Larger text for better visibility */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px; /* Rounded corners for the display */
+    height: 60px;
+    overflow-x: auto; /* In case of long inputs */
+    width: 90%;
+  }
+   
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+    gap: 20px; /* Increased gap for better button spacing */
+   width: 20px;
+
+   
+    
+  }
+   
+  button {
+    background-color: #f4f4f4; /* Soft gray for buttons */
+    border: solid #ddd;
+    font-size: 20px;
+    padding: 25px;
+    border-radius: 12px; /* Rounded buttons */
+    color: #333;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Uniform height for all buttons */
+    border-radius: 20px;
+
+  }
+   
+  .button:hover {
+    background-color: #e0e0e0; /* Light gray on hover */
+    transform: scale(1.05); /* Slightly increase button size on hover */
+  }
+   
+  
+   
+  
+
+  
